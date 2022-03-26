@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    justify-content: space-between;
+}
+
+footer ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+footer img{
+    width: 212px;
+    height: 80px;
+    padding: 20px;
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    padding: 10px;
+}
+
+nav img{
+    align-items: center;
+    padding: 10px;
+}
+
+.infoEnvios{
+    background-image: url(./images/delivery.jpg);
+    background-position: center;
+    border-radius: 5px;
+    margin: 25px;
+    width: 490px;
+    height: 350px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.infoEnvios h3{
+    color: rgb(255, 0, 0);
+    padding: 20px;
+}
+
+.infoEnvios span{
+    color: white;
+}
+
+.podioPizzas{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 25px;
+    text-align: center;
+    width: 490px;
+    height: 350px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.podioPizzas h3{
+    padding: 20px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+.podio{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.pizzafalling{
+    display: flex;
+    width: 40%;
+}
+
+.flexPodio{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+}
