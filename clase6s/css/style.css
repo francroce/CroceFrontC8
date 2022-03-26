@@ -1,0 +1,45 @@
+/* GENERALES */
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    background-color: #E6E6E6;
+    text-align: center;
+}
+
+footer{
+    background-color: #005677;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+h1{
+    color: #005677;
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+h2{
+    color: #005677;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+li{
+    font-size: 15px;
+}
+.titulos{
+    background-color: #C4C4C4;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+.textoCursiva{
+    font-style: italic;
+}
